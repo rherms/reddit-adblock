@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Reddit Adblock",
+  "version": "0.1.0",
+  "description": "Deletes promoted posts",
+  "content_scripts": [{
+    "css": [],
+    "js": ["main.js"],
+    "matches": ["https://www.reddit.com/*"]
+  }] 
+}
